@@ -1,0 +1,55 @@
+h1 {
+	width: 800px;
+	margin: 21.44px auto;
+}
+
+h3 {
+	width: 800px;
+	margin: 18.72px auto;
+	color: rgb(125, 125, 125);
+}
+
+h3 span {
+	color: red;
+}
+
+table {
+	width: 800px;
+	border-top: 2px solid rgb(0, 119, 164);
+	border-collapse: collapse;
+	margin: auto;
+}
+
+thead th {
+	font-size: 1.25em;
+	padding: 15px 0;
+	border-bottom: 2px solid rgb(0, 119, 164);
+}
+
+thead th:nth-child(2) {
+	width: 20%;
+}
+
+.user-board-link {
+	text-decoration: none;
+	color: black;
+}
+
+.user-board-link:hover {
+	text-decoration: underline;
+}
+
+tbody td {
+	text-align: center;
+	padding: 10px 0;
+	border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+tbody td:nth-child(1) {
+	width: 10%;
+}
+
+tbody td:nth-child(2) {
+	text-align: left;
+	padding-left: 30px;
+}

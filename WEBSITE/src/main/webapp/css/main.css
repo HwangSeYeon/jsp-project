@@ -1,0 +1,32 @@
+.image {
+	position: relative;
+	top: -5vh;
+}
+
+.image > img {
+	width: 100%;
+}
+
+.content {
+	position: relative;
+	width: 75%;
+	padding: 20px;
+	border-top: 2px dashed rgb(204, 204, 204);
+	border-bottom: 2px dashed rgb(204, 204, 204);
+	border-radius: 20px;
+	text-align: center;
+	margin: auto;
+}
+
+.button {
+	padding-top: 15px;
+}
+
+.button > a {
+	text-decoration: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	background-color: rgb(52, 193, 210);
+	color: white;
+}
+

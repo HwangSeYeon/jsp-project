@@ -1,0 +1,88 @@
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form {
+	text-align: center;
+}
+
+.form > form > input {
+	width: 400px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 1px solid rgb(204, 204, 204);
+	border-radius: 5px;
+	box-sizing: border-box;
+	font-family: 'MaplestoryOTFLight';
+	font-size: 14px;
+}
+
+.form > form > .submit {
+	width: 400px;
+	padding: 6px 20px;
+	margin: 8px 0;
+	border: 2px solid rgb(0, 119, 164);
+	background-color: rgb(52, 193, 210);
+	border-radius: 5px;
+	box-sizing: border-box;
+	cursor: pointer;
+	color: white;
+	font-family: 'MaplestoryOTFLight';
+	font-size: 24px;
+}
+
+.write-form {
+	text-align: center;
+}
+
+.write-form .title {
+	width: 600px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	font-family: 'MaplestoryOTFLight';
+	font-size: 16px;	
+}
+
+textarea {
+	width: 600px;
+	height: 250px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	resize: vertical;
+	box-sizing: border-box;
+	font-family: 'MaplestoryOTFLight';
+	font-size: 16px;
+}
+
+.write-form > form > div {
+	width: 600px;
+	text-align: right;
+}
+
+.write-form .submit {
+	margin: 3px 0px;
+	padding: 5px 10px;
+	border: 1px solid rgb(0, 119, 164);
+	border-radius: 5px;
+	background-color: rgb(0, 119, 164);
+	color: white;
+	cursor: pointer;
+	font-family: 'MaplestoryOTFLight';
+	font-size: 16px;
+}
+
+.write-form .update {
+	margin: 3px 0px;
+	padding: 5px 10px;
+	border: 1px solid rgb(244, 201, 93);
+	border-radius: 5px;
+	background-color: rgb(244, 201, 93);
+	color: white;
+	cursor: pointer;
+	font-family: 'IM_Hyemin-Bold';
+	font-size: 16px;
+}
+

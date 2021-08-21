@@ -1,0 +1,95 @@
+h3 {
+	width: 800px;
+	margin: 21.44px auto;
+	color: rgb(0, 119, 164);
+}
+
+h3 > span {
+	cursor: pointer;
+}
+
+table {
+	width: 800px;
+	border-top: 2px solid rgb(204, 204, 204);
+	border-collapse: collapse;
+	margin: auto;
+}
+
+thead th {
+	font-size: 2em;
+	text-align: left;
+	padding: 15px 10px 5px;
+}
+
+.board-info {
+	border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.board-info a {
+	text-decoration: none;
+	color: black;
+}
+
+.board-info a:hover {
+	text-decoration: underline;
+}
+
+.board-info > td:nth-child(1) {
+	padding: 15px 10px;
+	width: 10%;
+}
+
+.board-info > td:nth-child(2) {
+	padding: 15px 10px;
+	color: rgb(204, 204, 204);
+	width: 1%;
+}
+
+.board-info > td:nth-child(3) {
+	padding: 15px 10px;
+}
+
+.content > td {
+	padding: 20px 10px;
+	height: 200px;
+	text-align: left;
+	vertical-align: top;
+	border-bottom: 2px solid rgb(204, 204, 204);
+	word-break: break-all;
+}
+
+tfoot div {
+	float: right;
+}
+
+tfoot a {
+	text-decoration: none;
+	float: left;
+	margin: 5px;
+	padding: 5px 10px;
+	border: 1px solid;
+	border-radius: 5px;
+}
+
+tfoot a:hover {
+	text-decoration: underline;
+}
+
+.update {
+	border-color: rgb(244, 201, 93);
+	background-color: rgb(244, 201, 93);
+	color: white;
+}
+
+.delete {
+	border-color: rgb(206, 108, 71);
+	background-color: rgb(206, 108, 71);
+	color: white;
+}
+
+.list {
+	border-color: rgb(0, 119, 164);
+	background-color: rgb(0, 119, 164);
+	color: white;
+}
+
